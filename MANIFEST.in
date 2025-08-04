@@ -1,0 +1,15 @@
+include README.md
+include LICENSE
+include pyproject.toml
+recursive-include postmanlite *.py
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * *.orig
+recursive-exclude * *.rej
+recursive-exclude * *.bak
+recursive-exclude * *~
+recursive-exclude * .DS_Store
+exclude .gitignore
+exclude .github/*
+exclude tests/*
+exclude *.egg-info/*
